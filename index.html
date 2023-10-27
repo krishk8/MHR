@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Heritage Railway</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        
+         <div class="w3-bar w3-blue w3-border w3-padding w3-xlarge">
+
+    
+            
+          
+         <a href="Home.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+          <a href="Events.html" class="w3-bar-item w3-button w3-mobile">Events</a>
+          <a href="Staff.html" class="w3-bar-item w3-button w3-mobile">Staff</a>
+          <a href="Volunteers.html" class="w3-bar-item w3-button w3-mobile">Volunteers</a>
+          <a href="Application.html" class="w3-bar-item w3-button w3-mobile">Application</a>
+          <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search..">
+          <button class="w3-bar-item w3-button w3-green w3-mobile">Go</button>
+          <img Align ="right" src="c:\Users\232107\OneDrive - wqeic.ac.uk\LOGO RAILWAY.docx.png" alt="Lights" style="width:18%"></div>
+          <div class="w3-display-container w3-aqua" style="height:300px;"></div>
+        </div>
+       
+        <h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="c:\Users\232107\OneDrive - wqeic.ac.uk\pics it\1st.html.png" style="width:100%">
+  <img class="mySlides" src="c:\Users\232107\OneDrive - wqeic.ac.uk\pics it\2nd.html.png" style="width:100%">
+  <img class="mySlides" src="c:\Users\232107\OneDrive - wqeic.ac.uk\pics it\3rd.html.png" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+       
+      
+        
+    </body>
+
+    
+</html>
+
